@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+:root{
+  --primary-color:#F1EEE9;
+  --secondary-color:#15133C;
+  --third-color:#EC994B;
+  --fourth-color:#73777B;
+}
+.btn{
+  background-color:#996637;
+  height: 35px;
+  border-radius: 10px;
+  padding: 5px 30px;
+  width: fit-content;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary-color);
+  cursor: pointer;
+  
+}
+.btn:hover{
+  background-color:#966232;
+}
+.btn:active{
+  transform: scale(0.95);
+}
